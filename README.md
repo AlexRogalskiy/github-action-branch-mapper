@@ -25,7 +25,7 @@ Parses branch name and optionally maps to environment name
 - uses: alexrogalskiy/github-action-branch-mapper@master
   with:
     github-ref: ${{ github.ref }}
-    map: "{ 'dev': 'staging', 'production': 'production', '.*': 'sandbox' }"
+    map: "{ \"dev\": \"staging\", \"production\": \"production\", \".*\": \"sandbox\" }"
 ```
 
 Outputs:
