@@ -22,10 +22,10 @@
 Parses branch name and optionally maps to environment name
 
 ```yml
-- uses: alexrogalskiy/github-actions/github-action-branch-mapper@master
+- uses: alexrogalskiy/github-action-branch-mapper@master
   with:
     github-ref: ${{ github.ref }}
-    map: ${{ toJSON({ dev: 'staging', production: 'production', '.*': 'sandbox' })  }}
+    map: "{ 'dev': 'staging', 'production': 'production', '.*': 'sandbox' }"
 ```
 
 Outputs:

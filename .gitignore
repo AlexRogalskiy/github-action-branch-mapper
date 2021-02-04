@@ -32,7 +32,6 @@ packages/
 target/
 log/
 site/
-dist/
 .cache
 node_modules
 .vercel
