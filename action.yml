@@ -1,5 +1,6 @@
 name: "Branch mapper"
 description: "Maps branch name to corresponding environment name"
+author: "AlexRogalskiy"
 
 inputs:
   github-ref:
@@ -7,10 +8,12 @@ inputs:
     required: true
   map:
     description: 'Env branch mappings'
+    required: false
+    default: null
 
 outputs:
   environment:
-    description: 'Env branch name'
+    description: 'Environment branch name'
 
 runs:
   using: "node12"
