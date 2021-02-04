@@ -1,0 +1,21 @@
+name: "Branch mapper"
+description: "Maps branch name to corresponding environment name"
+
+inputs:
+  github-ref:
+    description: 'Github ref to parse'
+    required: true
+  map:
+    description: 'Env branch mappings'
+
+outputs:
+  environment:
+    description: 'Env branch name'
+
+runs:
+  using: "node12"
+  main: "dist/index.js"
+
+branding:
+  icon: 'battery'
+  color: 'orange'

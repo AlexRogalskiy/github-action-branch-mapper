@@ -1,0 +1,32 @@
+{
+    "name": "github-action-branch-mapper",
+    "version": "1.0.0",
+    "description": "Automatically rename current branch reference to corresponding environment name according to provided naming convention mappings",
+    "main": "index.js",
+    "author": "Alexander Rogalskiy",
+    "license": "GPLv3",
+    "private": true,
+    "scripts": {
+        "prepublish": "node_modules\\.bin\\ncc build index.js -m -o dist",
+        "test": "TZ=utc jest"
+    },
+    "dependencies": {
+        "@actions/core": "^1.2.6"
+    },
+    "devDependencies": {
+        "@vercel/ncc": "~>0.23.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexRogalskiy/github-action-branch-mapper.git"
+    },
+    "keywords": [
+        "github-actions",
+        "branch mapping",
+        "javascript"
+    ],
+    "bugs": {
+        "url": "https://github.com/AlexRogalskiy/github-action-branch-mapper/issues"
+    },
+    "homepage": "https://github.com/AlexRogalskiy/github-action-branch-mapper"
+}
