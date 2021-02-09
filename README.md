@@ -1,5 +1,7 @@
 # GitHub branch mapper
 
+[![GitHub marketplace](https://img.shields.io/badge/marketplace-github--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
+<!-- [![Become a sponsor](https://img.shields.io/badge/sponsor-AlexRogalskiy-181717.svg?logo=github)](https://github.com/sponsors/AlexRogalskiy)-->
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/github-action-branch-mapper)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/github-action-branch-mapper?category=lines)
