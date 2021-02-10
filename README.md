@@ -1,4 +1,4 @@
-# GitHub branch mapper
+# Branch mapper
 
 [![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
 <!-- [![Become a sponsor](https://img.shields.io/badge/sponsor-AlexRogalskiy-181717.svg?logo=github)](https://github.com/sponsors/AlexRogalskiy)-->
@@ -21,21 +21,38 @@
 [![Public workflows that use this action.][2]][3]
 [![Licence][4]][5]
 
-Parses branch name and optionally maps to environment name
+## Description
+
+Parses branch name and optionally maps to corresponding environment name.
+
+## Inputs
+
+### `github-ref`
+
+**Required** GitHub references to parse the current branch from
+
+### `map`
+
+**Optional** Collection of branch name mappings (default **null**)
+
+## Outputs
+
+### `environment`
+
+Environment branch name by provided collection of name mappings
+
+## Example usage
 
 ```yml
-- uses: alexrogalskiy/github-action-branch-mapper@master
+- name: Branch name mapping
+  uses: alexrogalskiy/github-action-branch-mapper@master
   with:
     github-ref: ${{ github.ref }}
     map: "{ \"dev\": \"staging\", \"production\": \"production\", \".*\": \"sandbox\" }"
 ```
 
-Outputs:
-
-- `environment` - environment name
-
-
 Run locally:
+
 - `yarn run_action --action github-ref-to-env --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
 
 [1]: https://github.com/AlexRogalskiy/github-action-branch-mapper

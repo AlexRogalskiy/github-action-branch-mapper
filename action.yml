@@ -1,10 +1,10 @@
-name: "Branch name mappings utility"
-description: "Create branch name mappings by corresponding environment branch"
+name: "Branch name mappings"
+description: "Create branch name by corresponding collection of environment branch name mappings"
 author: "AlexRogalskiy"
 
 inputs:
   github-ref:
-    description: "github reference to parse current branch from"
+    description: "github reference to parse the current branch from"
     required: true
   map:
     description: "collection of branch name mappings"
@@ -13,7 +13,7 @@ inputs:
 
 outputs:
   environment:
-    description: "environment branch name by provided collection of mappings"
+    description: "environment branch name by provided collection of name mappings"
 
 runs:
   using: "node12"
