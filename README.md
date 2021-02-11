@@ -1,7 +1,12 @@
 # Branch mapper
 
+[![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg)](https://github.com/lekterable/perfekt)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 [![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
+
 <!-- [![Become a sponsor](https://img.shields.io/badge/sponsor-AlexRogalskiy-181717.svg?logo=github)](https://github.com/sponsors/AlexRogalskiy)-->
+
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/github-action-branch-mapper)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/github-action-branch-mapper?category=lines)
@@ -17,6 +22,10 @@
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/github-action-branch-mapper)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/github-action-branch-mapper?branch=master)](https://hitsofcode.com/github/alexrogalskiy/github-action-branch-mapper?branch=master/view?branch=master)
+![CI](https://github.com/AlexRogalskiy/github-action-branch-mapper/workflows/CI/badge.svg)
+
+<!--[![codecov](https://codecov.io/gh/AlexRogalskiy/github-action-branch-mapper/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexRogalskiy/github-action-branch-mapper)-->
+
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][1]
 [![Public workflows that use this action.][2]][3]
 [![Licence][4]][5]
@@ -48,12 +57,22 @@ Environment branch name by provided collection of name mappings
   uses: alexrogalskiy/github-action-branch-mapper@master
   with:
     github-ref: ${{ github.ref }}
-    map: "{ \"dev\": \"staging\", \"production\": \"production\", \".*\": \"sandbox\" }"
+    map: '{ "dev": "staging", "production": "production", ".*": "sandbox" }'
 ```
 
 Run locally:
 
-- `yarn run_action --action github-ref-to-env --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
+- `yarn run_action --action github-action-branch-mapper --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
+
+---
+
+- ##### <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30"> _Star-Gazers_
+  [![Stargazers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/stars/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/stargazers)
+
+---
+
+- ##### <img src="https://ghost.org/images/docs/setup/fork.gif" width="30"> _Forkers_
+  [![Forkers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/forks/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/network/members)
 
 [1]: https://github.com/AlexRogalskiy/github-action-branch-mapper
 [2]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-branch-mapper%26badge%3Dtrue
