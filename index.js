@@ -12,7 +12,7 @@ async function run() {
       map = JSON.parse(map);
     }
 
-    let env = parseEnvironmentName(githubRef, map);
+    const env = parseEnvironmentName(githubRef, map);
     if (!env) {
       throw new Error('Could not parse environment name');
     }
@@ -26,5 +26,5 @@ async function run() {
 module.exports = run;
 
 if (require.main === module) {
-  run().then(() => console.log('Done!'));
+  run();
 }

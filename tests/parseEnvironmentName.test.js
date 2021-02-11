@@ -1,6 +1,6 @@
 'use strict';
 
-const { describe, it, expect } = require('jest-circus');
+const expect = require('expect');
 const parseEnvironmentName = require('../src/parseEnvironmentName');
 
 describe('parseEnvironmentName', () => {
