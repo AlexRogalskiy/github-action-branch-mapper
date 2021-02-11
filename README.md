@@ -60,10 +60,6 @@ Environment branch name by provided collection of name mappings
     map: '{ "dev": "staging", "production": "production", ".*": "sandbox" }'
 ```
 
-Run locally:
-
-- `yarn run_action --action github-action-branch-mapper --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
-
 ---
 
 - ##### <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30"> _Star-Gazers_
