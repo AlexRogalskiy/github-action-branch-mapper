@@ -1,28 +1,30 @@
-function parseBranch (ref) {
-    const regex = /refs\/(heads|tags)\/(\S*)/
-    const match = ref.match(regex)
+'use strict';
 
-    if (match) {
-        return match[2]
-    }
-}
+const parseBranch = ref => {
+  const regex = /refs\/(heads|tags)\/(\S*)/;
+  const match = ref.match(regex);
 
-function parseEnvironmentName(githubRef, map) {
-    let env = parseBranch(githubRef)
+  if (match) {
+    return match[2];
+  }
+};
 
-    if (map) {
-        // we intentionally do sort reverse to push capture everything key `.*` to end
-        const keys = Object.keys(map).sort().reverse();
-        const mappedName = keys.find((name) => {
-            const regex = new RegExp(name)
+const parseEnvironmentName = (githubRef, map) => {
+  let env = parseBranch(githubRef);
 
-            return regex.test(env)
-        })
+  if (map) {
+    // we intentionally do sort reverse to push capture everything key `.*` to end
+    const keys = Object.keys(map).sort().reverse();
+    const mappedName = keys.find(name => {
+      const regex = new RegExp(name);
 
-        env = map[mappedName]
-    }
+      return regex.test(env);
+    });
 
-    return env;
-}
+    env = map[mappedName];
+  }
 
-module.exports = parseEnvironmentName
+  return env;
+};
+
+module.exports = parseEnvironmentName;
