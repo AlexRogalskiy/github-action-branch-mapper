@@ -21,10 +21,10 @@ max_line_length = 100
 indent_size = 2
 
 [*.{html, xml}]
-indent_size = 4
+indent_size = 2
 
 [*.{css, scss, json}]
-indent_size = 4
+indent_size = 2
 
 [*.{md, markdown}]
 max_line_length = off
