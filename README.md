@@ -1,12 +1,13 @@
 # Branch mapper
 
+[![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
+
 [![management: perfekt👌](https://img.shields.io/badge/management-perfekt👌-red.svg)](https://github.com/lekterable/perfekt)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-[![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
-
 <!-- [![Become a sponsor](https://img.shields.io/badge/sponsor-AlexRogalskiy-181717.svg?logo=github)](https://github.com/sponsors/AlexRogalskiy)-->
 
+[![DeepScan grade](https://deepscan.io/api/teams/11946/projects/15928/branches/326928/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=11946&pid=15928&bid=326928)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/github-action-branch-mapper)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/github-action-branch-mapper?category=lines)
