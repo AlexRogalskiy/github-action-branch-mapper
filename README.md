@@ -15,7 +15,6 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AlexRogalskiy/github-action-branch-mapper)
-![GitHub](https://img.shields.io/github/license/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub language count](https://img.shields.io/github/languages/count/AlexRogalskiy/github-action-branch-mapper)
 ![GitHub search hit counter](https://img.shields.io/github/search/AlexRogalskiy/github-action-branch-mapper/goto)
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/github-action-branch-mapper)
@@ -68,7 +67,6 @@ Environment branch name by provided collection of name mappings
 ## <img src="https://ghost.org/images/docs/setup/fork.gif" width="30"> _Forkers_
 
 [![Forkers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/forks/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/network/members)
-
 
 [repo]: https://github.com/AlexRogalskiy/github-action-branch-mapper
 [total_usages]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-branch-mapper%26badge%3Dtrue
