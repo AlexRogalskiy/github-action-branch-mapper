@@ -60,6 +60,10 @@ Environment branch name by provided collection of name mappings
     map: '{ "dev": "staging", "production": "production", ".*": "sandbox" }'
 ```
 
+Running locally:
+
+- `yarn start:action --action github-ref-to-env --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
+
 ## <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30"> _Star Gazers_
 
 [![Stargazers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/stars/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/stargazers)
