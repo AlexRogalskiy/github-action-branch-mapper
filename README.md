@@ -33,6 +33,22 @@
 ## _Table of contents_
 
 <!--ts-->
+   * [<em>Branch mapper</em>](#branch-mapper)
+      * [<em>Table of contents</em>](#table-of-contents)
+      * [<em>Description</em>](#description)
+      * [<em>Inputs</em>](#inputs)
+         * [github-ref](#github-ref)
+         * [map](#map)
+      * [<em>Outputs</em>](#outputs)
+         * [environment](#environment)
+      * [<em>Examples</em>](#examples)
+      * [<em>Visitor stats</em>](#visitor-stats)
+      * [<em>Licensing</em>](#licensing)
+      * [<em>Authors</em>](#authors)
+      * [<em>Versioning</em>](#versioning)
+      * [<em>Contribution</em>](#contribution)
+      * [<em>Acknowledgement</em>](#acknowledgement)
+      * [<em>Forks</em>](#forks)
 <!--te-->
 
 ## _Description_
