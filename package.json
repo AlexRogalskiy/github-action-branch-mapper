@@ -40,6 +40,12 @@
     "type": "git",
     "url": "git+https://github.com/AlexRogalskiy/github-action-branch-mapper.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "keywords": [
     "github-actions",
     "branch mapping",

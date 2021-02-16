@@ -1,4 +1,4 @@
-# Branch names mapper
+# _Branch mapper_
 
 [![GitHub marketplace](https://img.shields.io/badge/marketplacegithub--branch-mapper-blue?logo=github)](https://github.com/marketplace/actions/branch-mapper)
 
@@ -30,11 +30,31 @@
 [![Public workflows that use this action.][total_usages]][search_results]
 [![Licence][license_id]][license_content]
 
-## Description
+## _Table of contents_
+
+<!--ts-->
+<!--te-->
+
+## _Description_
+
+<p align="center" style="text-align:center;">
+    <a href="https://www.typescriptlang.org/">
+        <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+    </a>
+    <a href="https://www.repostatus.org/#active">
+        <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/created/AlexRogalskiy/github-action-branch-mapper" alt="Project created status" />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/updated/AlexRogalskiy/github-action-branch-mapper" alt="Project updated status" />
+    </a>
+</p>
 
 Parses branch name and optionally maps to corresponding environment name.
 
-## Inputs
+## _Inputs_
 
 ### `github-ref`
 
@@ -44,13 +64,13 @@ Parses branch name and optionally maps to corresponding environment name.
 
 **Optional** Collection of branch name mappings (default **null**)
 
-## Outputs
+## _Outputs_
 
 ### `environment`
 
 Environment branch name by provided collection of name mappings
 
-## Examples
+## _Examples_
 
 ```yml
 - name: Branch name mapping
@@ -62,18 +82,69 @@ Environment branch name by provided collection of name mappings
 
 Running locally:
 
-- `yarn start:action --action github-ref-to-env --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
+- `npm run start:action --action github-action-branch-mapper --github-ref refs/heads/my/branch-name --map '{ "dev": "staging", ".*": "sandbox" }'`
 
-## <img src="https://user-images.githubusercontent.com/18126719/56791599-0868f980-683a-11e9-8a8b-134ced040c8e.png" width="30"> _Star Gazers_
+## _Visitor stats_
 
-[![Stargazers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/stars/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/stargazers)
+[![GitHub page hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAlexRogalskiy%2Fgithub-action-branch-mapper&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
-## <img src="https://ghost.org/images/docs/setup/fork.gif" width="30"> _Forkers_
+![GitHub stars](https://img.shields.io/github/stars/AlexRogalskiy/github-action-branch-mapper?style=social)
+![GitHub forks](https://img.shields.io/github/forks/AlexRogalskiy/github-action-branch-mapper?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/AlexRogalskiy/github-action-branch-mapper?style=social)
 
-[![Forkers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/forks/AlexRogalskiy/github-action-branch-mapper)](https://github.com/AlexRogalskiy/github-action-branch-mapper/network/members)
+## _Licensing_
+
+_**Branch mapper**_ is distributed under LGPL version 3 or later,
+[[License](https://github.com/AlexRogalskiy/github-action-branch-mapper/blob/master/LICENSE)]. LGPLv3 is
+additional permissions on top of GPLv3.
+
+![license](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
+
+## _Authors_
+
+_**Branch mapper**_ is maintained by the following GitHub team-members:
+
+- [![Author](https://img.shields.io/badge/author-AlexRogalskiy-FB8F0A)](https://github.com/AlexRogalskiy)
+
+with community support please contact with us if you have some question or proposition.
+
+## _Versioning_
+
+The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on
+this repository][tags].
+
+## _Contribution_
+
+[![Contributors Display](https://badges.pufler.dev/contributors/AlexRogalskiy/github-action-branch-mapper?size=50&padding=5&bots=true)](https://badges.pufler.dev)
+
+Please read
+[CONTRIBUTING.md](https://github.com/AlexRogalskiy/github-action-branch-mapper/blob/master/.github/CONTRIBUTING.md)
+for details on our code of conduct, and the process for submitting pull requests to us.
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/github-action-branch-mapper)
+
+See also the list of [contributors][contributors] who participated in this project.
+
+## _Acknowledgement_
+
+[![Stargazers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/stars/AlexRogalskiy/github-action-branch-mapper)][stars]
+
+## _Forks_
+
+[![Forkers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/forks/AlexRogalskiy/github-action-branch-mapper)][forkers]
 
 [repo]: https://github.com/AlexRogalskiy/github-action-branch-mapper
-[total_usages]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-branch-mapper%26badge%3Dtrue
-[search_results]: https://github.com/search?o=desc&q=AlexRogalskiy/github-action-branch-mapper+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
+[tags]: https://github.com/AlexRogalskiy/github-action-branch-mapper/tags
+[issues]: https://github.com/AlexRogalskiy/github-action-branch-mapper/issues
+[pulls]: https://github.com/AlexRogalskiy/github-action-branch-mapper/pulls
+[wiki]: https://github.com/AlexRogalskiy/github-action-branch-mapper/wiki
+[stars]: https://github.com/AlexRogalskiy/github-action-branch-mapper/stargazers
+[forkers]: https://github.com/AlexRogalskiy/github-action-branch-mapper/network/members
+[contributors]: https://github.com/AlexRogalskiy/github-action-branch-mapper/graphs/contributors
 [license_id]: https://img.shields.io/github/license/AlexRogalskiy/github-action-branch-mapper
 [license_content]: https://github.com/AlexRogalskiy/github-action-branch-mapper/blob/master/LICENSE
+[total_usages]:
+  https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-git-master.endbug.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3DAlexRogalskiy%2Fgithub-action-branch-mapper%26badge%3Dtrue
+[search_results]:
+  https://github.com/search?o=desc&q=AlexRogalskiy/github-action-branch-mapper+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code
