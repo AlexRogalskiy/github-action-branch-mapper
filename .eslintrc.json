@@ -7,22 +7,49 @@
     },
     "sourceType": "script"
   },
-  "extends": ["plugin:github/recommended", "eslint:recommended", "prettier"],
-  "plugins": ["node", "import", "prettier", "jest"],
+  "extends": [
+    "plugin:github/recommended",
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "node",
+    "import",
+    "prettier",
+    "jest"
+  ],
   "env": {
     "node": true,
     "es6": true,
     "jest": true
   },
   "rules": {
-    "indent": ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    "jsx-quotes": ["error", "prefer-double"],
-    "quotes": ["error", "single"],
-    "comma-dangle": ["error", "always-multiline"],
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-double"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
     "no-case-declarations": "off",
     "eqeqeq": "warn",
-    "quote-props": ["warn", "consistent-as-needed"],
+    "quote-props": [
+      "warn",
+      "consistent-as-needed"
+    ],
     "keyword-spacing": "error",
     "eslint-comments/no-use": "off",
     "import/no-namespace": "off",
