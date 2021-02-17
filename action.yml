@@ -9,7 +9,7 @@ inputs:
   map:
     description: "collection of branch name mappings"
     required: false
-    default: null
+    default: 'null'
 
 outputs:
   environment:
