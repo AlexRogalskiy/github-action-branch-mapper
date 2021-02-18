@@ -51,6 +51,7 @@
       * [<em>Contribution</em>](#contribution)
       * [<em>Acknowledgement</em>](#acknowledgement)
       * [<em>Forks</em>](#forks)
+      * [<em>Development Support</em>](#development-support)
 <!--te-->
 
 ## _Description_
