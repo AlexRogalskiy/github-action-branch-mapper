@@ -154,6 +154,21 @@ See also the list of [contributors][contributors] who participated in this proje
 
 [![Forkers repo roster for @AlexRogalskiy/github-action-branch-mapper](https://reporoster.com/forks/AlexRogalskiy/github-action-branch-mapper)][forkers]
 
+## _Development Support_
+
+Like _**Branch mapper**_ ? Consider buying me a coffee :\)
+
+[![Become a Patron](https://img.shields.io/badge/Become_Patron-Support_me_on_Patreon-blue.svg?style=flat-square&logo=patreon&color=e64413)](https://www.patreon.com/alexrogalskiy)
+[![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/AlexRogalskiy)
+[![KoFi](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=ko-fi)](https://ko-fi.com/alexrogalskiy)
+
+---
+
+[![forthebadge](https://img.shields.io/badge/made%20with-%20javascript-C1282D.svg?logo=javascript&style=for-the-badge)](https://www.javascript.com/)
+[![forthebadge](https://img.shields.io/badge/powered%20by-%20github-7116FB.svg?logo=github&style=for-the-badge)](https://github.com/)
+[![forthebadge](https://img.shields.io/badge/build%20with-%20%E2%9D%A4-B6FF9B.svg?logo=heart&style=for-the-badge)](https://forthebadge.com/)
+
+
 [repo]: https://github.com/AlexRogalskiy/github-action-branch-mapper
 [tags]: https://github.com/AlexRogalskiy/github-action-branch-mapper/tags
 [issues]: https://github.com/AlexRogalskiy/github-action-branch-mapper/issues
