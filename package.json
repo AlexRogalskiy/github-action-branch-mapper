@@ -19,7 +19,7 @@
     "test": "TZ=utc jest",
     "test:coverage": "jest --collectCoverage",
     "test:watch": "jest --watch",
-    "test:all": "TZ=utc jest && npm run test:folio",
+    "test:all": "npm run test && npm run test:folio",
     "all": "npm run format && npm run lint && npm run prepare"
   },
   "dependencies": {
