@@ -62,7 +62,7 @@
 ## _Description_
 
 <p align="center" style="text-align:center;">
-    <a href="https://www.typescriptlang.org/">
+    <a href="https://www.javascript.com/">
         <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
     </a>
     <a href="https://www.repostatus.org/#active">
